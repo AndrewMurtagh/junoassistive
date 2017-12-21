@@ -776,6 +776,9 @@ form .form-control:focus {
 .partner-images {
     display: flex;
 }
+.partner-images img {
+    max-height: 140px !important;
+}
 @media screen and (max-width: 767px) {
 
    .partner-images {
