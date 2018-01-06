@@ -115,7 +115,7 @@ form .form-control:focus {
 
 
 /* layout.handlebars */
-.container-full {
+.content-full {
     min-height:100%;
     position:relative;
     background-color: var(--col-bk-base);
