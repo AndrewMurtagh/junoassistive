@@ -74,3 +74,9 @@ $(document).ready(function () {
     $("#myModal").modal();
   });
 });
+
+
+
+$('.carousel').carousel({
+  interval: 6000
+});

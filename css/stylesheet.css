@@ -18,7 +18,7 @@
     --col-tertiary: #3E2723;
 
 
-    
+
     --dim-footer-height: 280px;
     --dim-navbar-height: 70px;
 
@@ -40,7 +40,7 @@
 
     }
 
-    
+
 }
 
 
@@ -48,7 +48,7 @@
 *{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    margin: 0px; 
+    margin: 0px;
     padding: 0px;
     font-weight: 400;
 }
@@ -63,7 +63,7 @@ span, p, h1, h2, h3, h4, h5, h6 {
     font-size: inherit;
     font-weight: inherit;
     color: inherit;
-    text-decoration: inherit; 
+    text-decoration: inherit;
 }
 
 p {
@@ -90,7 +90,7 @@ form .col-sm-6:last-of-type {
 
 form .form-control {
     background-color: var(--col-bk-grey);
-    border: none; 
+    border: none;
 
 }
 form .form-control:active,
@@ -109,7 +109,7 @@ form .form-control:focus {
         padding-left: 0px;
         padding-right: 0px;
     }
-    
+
 }
 
 
@@ -140,7 +140,7 @@ form .form-control:focus {
     border-collapse: collapse;
     outline: none;
     font-weight: inherit;
-    font-size: inherit; 
+    font-size: inherit;
     color: var(--text-dark-text);
     -webkit-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
@@ -189,7 +189,7 @@ form .form-control:focus {
     box-shadow: 0 4px 8px rgba(0,0,0,.25);
     cursor: pointer;
     padding: 8px 16px;
-    margin: 0px; 
+    margin: 0px;
     text-align: center;
     color: #fff;
     border: none;
@@ -301,7 +301,7 @@ form .form-control:focus {
     margin: 0px;
     margin-bottom: 4px !important;
 
-} 
+}
 .secondary-section h2  {
     color: var(--col-bk-border);
 }
@@ -327,19 +327,19 @@ form .form-control:focus {
     justify-content: center;
 }
 @media screen and (max-width: 767px) {
-    .info-section { 
+    .info-section {
         margin-left: var(--dim-spacing-extra-small);
         margin-right: var(--dim-spacing-extra-small);
         display: block;
     }
-    .info-section .col-sm-6:first-of-type { 
+    .info-section .col-sm-6:first-of-type {
         margin-bottom: var(--dim-spacing-extra-small);
     }
-    
+
 }
 .info-section p {
     color: var(--col-text-light-text);
-    text-align: center; 
+    text-align: center;
     margin: 0px;
 }
 
@@ -373,21 +373,21 @@ form .form-control:focus {
     display: flex;
 }
 @media screen and (max-width: 767px) {
-    .prompt-section { 
+    .prompt-section {
         margin-left: var(--dim-spacing-extra-small);
         margin-right: var(--dim-spacing-extra-small);
         display: block;
     }
-    .prompt-section .col-sm-6:first-of-type { 
+    .prompt-section .col-sm-6:first-of-type {
         margin-bottom: var(--dim-spacing-small);
     }
-    
+
 }
 
 
 
 .prompt-section h1 {
-    text-align: left; 
+    text-align: left;
     font-size: 3rem;
     margin-top: 0px;
     margin-bottom: 1rem;
@@ -395,7 +395,7 @@ form .form-control:focus {
 }
 
 .prompt-section h2 {
-    text-align: left; 
+    text-align: left;
     font-size: 1em;
     color: inherit !important;
     font-weight: 300;
@@ -424,7 +424,7 @@ form .form-control:focus {
     color: var(--col-text-white-text);
 }
 
-.base-section .action-button-primary, 
+.base-section .action-button-primary,
 .grey-section .action-button-primary {
     background-color: var(--col-secondary);
     color: var(--col-text-white-text);
@@ -498,12 +498,12 @@ form .form-control:focus {
     background-color: var(--col-bk-base);
 }
 
-.navbar-brand { 
+.navbar-brand {
     display: inline-block;
     padding: 5px;
 }
 
-.navbar-brand img { 
+.navbar-brand img {
     display: inline-block;
     height: 40px;
 }
@@ -520,7 +520,7 @@ form .form-control:focus {
     background-color: var(--col-bk-footer-navbar);
     margin-bottom: 0;
     border: none;
-    border-radius: 0px;     
+    border-radius: 0px;
     height: var(--dim-navbar-height);
     border-bottom: 1px solid var(--col-bk-border);
 }
@@ -528,8 +528,8 @@ form .form-control:focus {
 .navbar-brand {
     height: var(--dim-navbar-height);
     line-height: var(--dim-navbar-height);
-    padding: 0px; 
-    margin: 0px; 
+    padding: 0px;
+    margin: 0px;
     color: var(--col-primary) !important;
     display: block;
     text-transform: uppercase;
@@ -541,7 +541,7 @@ form .form-control:focus {
     outline: none;
 }
 
-.navbar-brand span { 
+.navbar-brand span {
     color: var(--col-text-light-text) !important;
 }
 
@@ -580,7 +580,7 @@ form .form-control:focus {
     transition: all 0.3s linear;
 }
 */
-/* navbar.handlebars 
+/* navbar.handlebars
 .mobile-image { /* TODO *
     margin-left: 12px;
 }
@@ -595,7 +595,7 @@ form .form-control:focus {
     bottom:0;
     position: absolute;
     width:100%;
-    min-height: var(--dim-footer-height);       
+    min-height: var(--dim-footer-height);
     background-color: var(--col-bk-footer-navbar);
     border-top: 1px solid var(--col-bk-border);
 }
@@ -635,9 +635,9 @@ form .form-control:focus {
     -ms-transition: all 0.3s linear;
     -kthtml-transition: all 0.3s linear;
     transition: all 0.3s linear;
-} 
+}
 
-#footer-text { 
+#footer-text {
     color: var(--col-text-light-text);
     margin-top: var(--dim-spacing-small);
     display: block;
@@ -668,7 +668,7 @@ form .form-control:focus {
     .footer li {
         text-align: center;
     }
-    
+
 }
 
 
@@ -679,8 +679,8 @@ form .form-control:focus {
 /* about.handlebars */
 
 .about-card img {
-     display: block; 
-     margin-left: auto; 
+     display: block;
+     margin-left: auto;
      margin-right: auto;
 }
 .about-card h1 {
@@ -691,18 +691,18 @@ form .form-control:focus {
 .about-card h2 {
     margin-top: 6px;
     color: var(--col-text-light-text);
-    text-align: center; 
+    text-align: center;
     font-size: 1em;
     font-weight: 400;
     margin-bottom: 0px;
 }
 
 #stats-section .row {
-    display: flex; 
+    display: flex;
 }
 #stats-section * {
     padding: 0px;
-    margin: 0px; 
+    margin: 0px;
 }
 
 #stats-section-title {
@@ -727,7 +727,7 @@ form .form-control:focus {
 
 @media screen and (max-width: 767px) {
     #stats-section .row {
-        display: block; 
+        display: block;
     }
     #stats-section-title {
         text-align: center;
@@ -740,7 +740,7 @@ form .form-control:focus {
     .stats-section-stat {
         text-align: center;
     }
-    
+
 }
 
 
@@ -787,14 +787,14 @@ form .form-control:focus {
     .partner-images div {
         width: 90%;
         margin-left: auto;
-        margin-right: auto; 
+        margin-right: auto;
         margin-top: var(--dim-spacing-small);
     }
     .partner-images div:first-of-type {
-        margin-right: auto; 
+        margin-right: auto;
         margin-top: 0px;
     }
-    
+
 }
 
 
@@ -866,7 +866,7 @@ form .form-control:focus {
 }
 
 @media screen and (max-width: 767px) {
-    
+
     .press-list li {
         width: 95%;
         margin-left: auto;
@@ -887,7 +887,7 @@ form .form-control:focus {
 .colour-patch:before{
     content: "";
     display: block;
-    padding-top: 40%;  
+    padding-top: 40%;
 }
 .colour-patch {
     padding: 18px;
@@ -913,7 +913,7 @@ form .form-control:focus {
 
 
 
-.gallery { 
+.gallery {
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
@@ -924,8 +924,8 @@ form .form-control:focus {
     overflow: hidden;
 }
 
-.gallery img { 
-    width: 100%; 
+.gallery img {
+    width: 100%;
     height: auto;
     transition: 500ms;
     margin-bottom: 10px;
@@ -959,24 +959,24 @@ form .form-control:focus {
 }
 
 @media screen and (max-width: 767px) {
-    .gallery { 
+    .gallery {
         -webkit-column-count: 2;
         -moz-column-count: 2;
         column-count: 2;
     }
-    .gallery div { margin: 0; 
+    .gallery div { margin: 0;
         width: 200px;
     }
 }
 
 @media screen and (max-width: 479px) {
-    .gallery { 
+    .gallery {
         -webkit-column-count: 1;
         -moz-column-count: 1;
         column-count: 1;
     }
-    .gallery div { 
-        margin: 0; 
+    .gallery div {
+        margin: 0;
         width: 200px;
     }
 }
@@ -998,7 +998,7 @@ form .form-control:focus {
     display: block;
     padding: 4px;
     text-decoration: none;
-    color: var(--col-text-light-text); 
+    color: var(--col-text-light-text);
     -webkit-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
     -moz-transition: all 0.3s linear;
@@ -1028,7 +1028,7 @@ form .form-control:focus {
 
 
 
-/* smartsense.handlebars */ 
+/* smartsense.handlebars */
 .metics-list {
     margin-left: 24px;
     margin-top: var(--dim-spacing-extra-small);
@@ -1044,7 +1044,7 @@ form .form-control:focus {
    .metics-list {
         margin-bottom: var(--dim-spacing-medium);
     }
-    
+
 }
 .advantages-list {
 
@@ -1058,3 +1058,48 @@ form .form-control:focus {
 
 
 
+
+/* usecases.handlebars */
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+.mycarousel-right h1 {
+    font-weight: 500;
+    font-size: 4rem;
+    margin: 150px 150px 50px 50px;
+    padding: 0px;
+    float: left;
+}
+.mycarousel-right p {
+    margin: 0px 150px 50px 50px;
+    padding: 0px;
+    float: left;
+}
+.mycarousel-left {
+    height: 100%;
+}
+.mycarousel-left img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@media screen and (max-width: 767px) {
+    .mycarousel-left {
+        height: 45%;
+    }
+
+    .mycarousel-right h1 {
+        font-size: 2.5rem;
+        margin: 25px 5px 5px 5px;
+    }
+    .mycarousel-right p {
+        font-size: 1.2rem;
+        margin: 0px 5px 5px 5px;
+    }
+}
