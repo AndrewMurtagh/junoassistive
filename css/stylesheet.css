@@ -1059,6 +1059,7 @@ form .form-control:focus {
 
 
 
+
 /* usecases.handlebars */
 .carousel,.item,.active{height:100%;}
 .carousel-inner{height:100%;}
@@ -1075,17 +1076,29 @@ form .form-control:focus {
 .carousel-control:active {
   color: #444;
 }
+.mycarousel-right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%
+}
+.mycarousel-right div {
+    padding-right: 20%;
+}
 .mycarousel-right h1 {
     font-weight: 500;
     font-size: 4rem;
-    margin: 150px 150px 50px 50px;
+    /*margin: 150px 150px 50px 50px;*/
+    margin-bottom: 50px;
     padding: 0px;
-    float: left;
 }
 .mycarousel-right p {
-    margin: 0px 150px 50px 50px;
+    /*margin: 0px 150px 50px 50px;*/
+    margin-bottom: 20px;
     padding: 0px;
-    float: left;
+}
+.mycarousel-right p:last-of-type {
+    margin-top: 30px;
 }
 .mycarousel-left {
     height: 100%;
@@ -1099,15 +1112,42 @@ form .form-control:focus {
 
 @media screen and (max-width: 767px) {
     .mycarousel-left {
-        height: 45%;
+        height: 40%;
+        padding:20px !important;
+    }
+
+    .mycarousel-left img {
+        height: 100%;
+        width: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+
+
+    .mycarousel-right {
+        display: block;
+          padding: 0px;
+    }
+    .mycarousel-right div {
+        margin: 0px;
+        padding: 20px;
+        padding-top: 40px;
     }
 
     .mycarousel-right h1 {
         font-size: 2.5rem;
-        margin: 25px 5px 5px 5px;
+        margin: 0px;
+        padding: 0px;
     }
     .mycarousel-right p {
         font-size: 1.2rem;
-        margin: 0px 5px 5px 5px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .mycarousel-right p:last-of-type {
+        margin-top: 0px;
     }
 }
