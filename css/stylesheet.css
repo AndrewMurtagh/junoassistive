@@ -814,7 +814,7 @@ form .form-control:focus {
     display: flex;
 }
 .partner-images img {
-    max-height: 140px !important;
+    max-height: 70px !important;
 }
 @media screen and (max-width: 767px) {
 
